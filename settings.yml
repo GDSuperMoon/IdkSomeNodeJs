@@ -1,0 +1,8 @@
+---
+  settings:
+    main: true
+    app: true
+    LDM: true
+  replit:
+    language: "nodejs"
+    run: "node index.js"
