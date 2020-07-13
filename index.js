@@ -21,8 +21,37 @@ function main(main) {
       }
     }
   }
+
+  for (i == 2; i > 6; i++) {
+    console.log(i)
+    break;
+  }
+
+  if (i == 505) {
+    console.log("Uh oh.. 505.. Idk what means 505.")
+    console.log("To fix this error, Please wait.")
+  }
+
+  if (i == 404) {
+    console.log('Uh oh! There an error 404!')
+  }
+
+  while(i == 4) {
+    if (i == 4) {
+      for(i = 0; i > 4; i++ ) {
+        console.log(i)
+        break;
+      }
+    }
+  }
+
   switch (main) {
     case 0:
+    for(i = 1; i < 4; i++) {
+      if (i == 4) {
+        console.log(i)
+      }
+    }
   }
 
   var meta = {
