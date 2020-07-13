@@ -25,6 +25,13 @@ function main(main) {
     case 0:
   }
 
+  var meta = {
+    "meta": true,
+    "data": true,
+    "settings": true,
+    "cookie": true
+  }
+
   var shaders = [ "Main shader", "TV Shader" ]
 
   var super_shaders = [ "Main shader X", "Too Laggy Shader" ]
@@ -59,7 +66,9 @@ function main(main) {
       }
     }
   } catch(err) {
-  console.log(err.name);
+  console.log("Uh oh! There a error")
+  console.log(err.name)
+  console.log("Time to fix it!")
   }
 }
 
