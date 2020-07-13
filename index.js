@@ -9,9 +9,9 @@ function main(main) {
 
   // Main script
   if (main == false) {
-    console.log("WARN: Main variable has set to false.")
+    console.log("Uh oh! Looks like your app has not working.")
   } else {
-    console.log("Main variable has set to true :D")
+    console.log("Welcome to app!")
   }
   for (i = 0; i < 5; i++) {
     if (i == 5) {
@@ -60,11 +60,12 @@ function main(main) {
     }
   }
   var package = { // JSON Package
-    "package" : {
-        "app-name": "My first app",
-        "app-version": "1.0"
-      }
+      "package": {
+        "app-name": "My first Node.Js (Javascript) Project",
+        "version": "1.4"
     }
+  }
+
   } catch(err) {
   console.log("Uh oh! There a error")
   console.log(err.name)
