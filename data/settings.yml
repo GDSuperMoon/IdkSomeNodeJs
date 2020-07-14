@@ -6,3 +6,20 @@
   replit:
     language: "nodejs"
     run: "node index.js"
+  modes:
+    first-mode: "survival"
+    second-mode: "creative"
+    3-mode: "explore"
+  objects:
+    first-object: "date"
+  modules:
+    events-module: "events"
+  meta:
+    meta: true
+    data: true
+    settings: true
+    cookie: true
+  functions:
+    - main
+    - app
+    - settings

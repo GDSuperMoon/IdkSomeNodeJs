@@ -12,6 +12,7 @@ function main(main) {
     console.log("Uh oh! Looks like your app has not working.")
   } else {
     console.log("Welcome to app!")
+    
   }
   for (i = 0; i < 5; i++) {
     if (i == 5) {
@@ -21,6 +22,61 @@ function main(main) {
       }
     }
   }
+  
+  for (i == 3; i < 3; i++) {
+    while (i == 3) {
+      console.log(i)
+      break;
+    }
+  }
+
+  for (i == 400; i > 400; i++) {
+    while (i == 400) {
+      console.log("400. Bad Request")
+      return i;
+    }
+  }
+
+  for (i == 502; i > 502; i++) {
+    while (i == 502) {
+      console.log("502. Bad Gateway")
+      console.log("Please try restarting the app.")
+      return i;
+    }
+  }
+
+  for (i == 503; i > 503; i++) {
+    while (i == 503) {
+      console.log("503. Service Unavailable.")
+      console.log("Please try again later.")
+    }
+  }
+
+  for (i == 405; i > 405; i++) {
+    while (i == 405) {
+      console.log("405 Method Not Allowed")
+      console.log("Try again later..")
+    }
+  }
+
+    for (i == 500; i > 500; i++) {
+      while(i == 500) {
+        console.log("500. Internal Server Error")
+        console.log("Please Try Again later.")
+      }
+    }
+
+  for (i == 401; i > 401; i++) {
+    while (i == 401) {
+      console.log("401. Unauthorized.")
+    }
+  }
+
+  for (i == 403; i > 403; i++) {
+    while (i == 403) {
+      console.log("403. Forbidden")
+    }
+  }
 
   for (i == 2; i > 6; i++) {
     console.log(i)
@@ -28,12 +84,12 @@ function main(main) {
   }
 
   if (i == 505) {
-    console.log("Uh oh.. 505.. Idk what means 505.")
+    console.log("505. Version not supported.")
     console.log("To fix this error, Please wait.")
   }
 
   if (i == 404) {
-    console.log('Uh oh! There an error 404!')
+    console.log('Something went wrong...')
   }
 
   while(i == 4) {
@@ -94,6 +150,10 @@ function main(main) {
         "version": "1.4"
     }
   }
+
+  settings()
+  
+  app()
 
   } catch(err) {
   console.log("Uh oh! There a error")
